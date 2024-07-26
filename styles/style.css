@@ -24,12 +24,12 @@ body {
 }
 
 .nav-bar {
-    width: 71.6%;
+    width: 73.6%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 57px 0 50px 0;
+    padding-top: 3.6rem;
 }
 
 .menu-bars {
@@ -69,6 +69,128 @@ body {
     text-decoration: none;
     font-size: 1.125rem;
     color: var(--color2);
+    font-weight: 400;
+}
+
+.banner {
+    width: 73.6%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 6rem;
+}
+
+.banner-title {
+    font-size: 4.8rem;
+    color: var(--color2);
+    font-weight: 900;
+}
+
+.shape-span {
+    font-family: "WindSong", cursive;
+    font-weight: 500;
+    line-height: 0;
+}
+
+.banner-text {
+    font-size: 1rem;
+    color: var(--color3);
+    font-weight: 400;
+}
+
+.banner-join-btn,
+.banner-download-btn {
+    width: 46%;
+    font-size: 1.125rem;
+    color: var(--color2);
+    font-weight: 600;
+    padding: 16px;
+}
+
+.banner-join-btn {
+    background-color: var(--color1);
+    border: none;
+    border-radius: 42px;
+    margin-right: 14px;
+}
+
+.banner-download-btn {
+    background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+}
+
+.banner-visual-content {
+    width: 35%;
+    margin-top: 2rem;
+}
+
+.banner-rectangle1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: relative;
+    left: -105px;
+    top: -165px;
+}
+
+.circle {
+    background-color: var(--color1);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+.tutorial-title {
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.tutorial-text {
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tutorial {
+    text-align: start;
+}
+
+.banner-rectangle2 {
+    text-align: start;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 15px;
+    position: relative;
+    left: 225px;
+    bottom: 550px;
+}
+
+.workout-title {
+    color: var(--color2);
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.workout-text {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.81rem;
     font-weight: 400;
 }
 
