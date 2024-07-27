@@ -270,6 +270,50 @@ main {
 
 
 
+/* run section styles */
+.run-section {
+    width: 73.6%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px 35px 40px 56px;
+}
+
+.run-intro {
+    width: 38%;
+    /* padding: 40px 0; */
+}
+
+.run-image {
+    width: 400px;
+    height: 350px;
+    object-fit: none;
+    object-position: 69% 33%;
+    border-radius: 18px;
+}
+
+.run-title {
+    color: rgb(255, 255, 255);
+    font-size: 2.25rem;
+    font-weight: 900;
+    padding-bottom: 14px;
+}
+
+.run-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .88rem;
+    font-weight: 400;
+    padding-bottom: 34px;
+}
+
+.run-btn {
+    width: 224px;
+}
+
 /* styles for responsiveness */
 @media screen and (max-width: 576px) {
     /* header styles */
