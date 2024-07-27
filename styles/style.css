@@ -359,6 +359,7 @@ main {
     }
 
     .banner-join-btn-mobile {
+        width: 46%;
         display: inline;
     }
 
