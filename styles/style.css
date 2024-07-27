@@ -22,6 +22,18 @@ main {
     background: linear-gradient(180deg, rgb(17, 17, 17), rgb(17, 17, 17));
 }
 
+/* shared styles */
+.btn-primary {
+    background-color: var(--color1);
+    border: none;
+    border-radius: 42px;
+    margin-right: 14px;
+    font-size: 1.125rem;
+    color: var(--color2);
+    font-weight: 600;
+    padding: 16px;
+}
+
 /* header styles */
 .header {
     background: linear-gradient(180deg, rgb(17, 17, 17), rgb(41, 41, 41), rgb(17, 17, 17));
@@ -109,7 +121,6 @@ main {
     font-weight: 400;
 }
 
-.banner-join-btn,
 .banner-download-btn {
     width: 46%;
     font-size: 1.125rem;
@@ -119,10 +130,7 @@ main {
 }
 
 .banner-join-btn {
-    background-color: var(--color1);
-    border: none;
-    border-radius: 42px;
-    margin-right: 14px;
+    width: 46%;
 }
 
 .banner-join-btn-mobile {
