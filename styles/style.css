@@ -121,6 +121,10 @@ body {
     margin-right: 14px;
 }
 
+.banner-join-btn-mobile {
+    display: none;
+}
+
 .banner-download-btn {
     background: none;
     border: 1px solid rgb(255, 255, 255);
@@ -198,6 +202,10 @@ body {
 
 /* styles for responsiveness */
 @media screen and (max-width: 576px) {
+    .nav-bar {
+        width: 90%;
+    }
+
     .nav-links {
         display: none;
     }
@@ -206,5 +214,66 @@ body {
         visibility: visible;
         color: var(--color2);
         font-size: 1.5rem;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-description, .banner-visual-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .banner-title {
+        margin-top: 51px;
+        width: 80%;
+        font-size: 2.25rem;
+    }
+
+    .banner-text {
+        width: 80%;
+    }
+
+    .banner-join-btn {
+        display: none;
+    }
+
+    .banner-join-btn-mobile {
+        display: inline;
+    }
+
+    .banner-rectangle1 {
+        left: 7px;
+        top: -325px;
+    }
+
+    .tutorial-title {
+        font-size: 1.125rem;
+    }
+
+    .tutorial-text {
+        font-size: .75rem;
+    }
+
+    .circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .banner-rectangle2 {
+        padding: 12px 18px;
+        left: 190px;
+        bottom: 627px;
+    }
+
+    .workout-title {
+        font-size: 1.88rem;
+    }
+
+    .workout-text {
+        font-size: .61rem;
     }
 }
