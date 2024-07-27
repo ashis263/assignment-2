@@ -286,7 +286,8 @@ main {
     }
 
     .banner-description,
-    .banner-visual-content {
+    .banner-visual-content,
+    .habit-section {
         width: 90%;
         margin: 0 auto;
     }
@@ -345,5 +346,30 @@ main {
 
     .workout-text {
         font-size: .61rem;
+    }
+
+    /* habit section styles */
+    .habit-section {
+        margin-top: -162px;
+    }
+
+    .habit-card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 25px;
+        row-gap: 40px;
+        padding-bottom: 66px;
+    }
+
+    .habit-card {
+        width: auto;
+    }
+
+    .habit-title {
+        font-size: 2rem;
+    }
+
+    .habit-text {
+        font-size: .88rem;
     }
 }
