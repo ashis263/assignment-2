@@ -375,6 +375,16 @@ main {
 
 /* styles for responsiveness */
 @media screen and (max-width: 576px) {
+    .banner-description,
+    .banner-visual-content,
+    .habit-section,
+    .footer-column1,
+    .footer-column2-3 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
     /* header styles */
     .nav-bar {
         width: 90%;
@@ -394,13 +404,6 @@ main {
         width: 100%;
         display: flex;
         flex-direction: column;
-    }
-
-    .banner-description,
-    .banner-visual-content,
-    .habit-section {
-        width: 90%;
-        margin: 0 auto;
     }
 
     .banner-title {
@@ -511,5 +514,11 @@ main {
     .run-image {
         width: 81%;
         height: auto;
+    }
+
+    /* footer styles  */
+    .footer-column-container {
+        flex-direction: column;
+        gap: 30px;
     }
 }
