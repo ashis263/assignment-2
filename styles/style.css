@@ -425,4 +425,32 @@ main {
     .habit-text {
         font-size: .88rem;
     }
+
+    /* run section styles  */
+    .run-section {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 0;
+    }
+    .run-intro {
+        width: 81%;
+        margin: 0 auto;
+    }
+
+    .run-title {
+        font-size: 2rem;
+    }
+
+    .run-text {
+        font-size: .88rem;
+    }
+
+    .run-btn {
+        width: 100%;
+    }
+
+    .run-image {
+        width: 81%;
+        height: auto;
+    }
 }
