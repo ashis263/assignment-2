@@ -555,6 +555,7 @@ main {
     .habit-section,
     .run-section,
     .training-section,
+    .team-section,
     .footer-info {
         width: 90%;
         margin: 0 auto;
@@ -677,6 +678,10 @@ main {
     }
 
     /* training section styles  */
+    .training-section {
+        padding-top: 66px;
+    }
+
     .training-intro {
         width: 100%;
     }
@@ -705,6 +710,19 @@ main {
         padding: 95px 0 0 25px;
     }
 
+    /* team section styles  */
+    .team-section {
+        padding: 66px 0;
+    }
+
+    .team-column:first-of-type {
+        display: none;
+    }
+
+    .team-card-container {
+        grid-template-columns: 1fr;
+    }
+    
     /* footer styles  */
     .footer-column-container {
         flex-direction: column;
