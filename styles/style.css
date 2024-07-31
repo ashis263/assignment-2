@@ -494,18 +494,19 @@ main {
     .banner-description,
     .banner-visual-content,
     .habit-section,
-    .footer-column1,
-    .footer-column2-3 {
+    .run-section,
+    .training-section,
+    .footer-info {
         width: 90%;
         margin: 0 auto;
     }
-
+    
     
     /* header styles */
     .nav-bar {
         width: 90%;
     }
-
+    
     .nav-links {
         display: none;
     }
@@ -515,19 +516,19 @@ main {
         color: var(--color2);
         font-size: 1.5rem;
     }
-
+    
     .banner {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-
+    
     .banner-title {
         margin-top: 51px;
         width: 80%;
         font-size: 2.25rem;
     }
-
+    
     .banner-text {
         width: 80%;
     }
@@ -535,55 +536,55 @@ main {
     .banner-join-btn {
         display: none;
     }
-
+    
     .banner-join-btn-mobile {
         width: 46%;
         display: inline;
     }
-
+    
     .banner-rectangle1 {
         left: 7px;
         top: -325px;
     }
-
+    
     .tutorial-title {
         font-size: 1.125rem;
     }
-
+    
     .tutorial-text {
         font-size: .75rem;
     }
-
+    
     .circle {
         width: 30px;
         height: 30px;
     }
-
+    
     .play-btn {
         visibility: visible;
         color: var(--color2);
         padding: 8.5px;
     }
-
+    
     .banner-rectangle2 {
         padding: 12px 18px;
         left: 190px;
         bottom: 627px;
     }
-
+    
     .workout-title {
         font-size: 1.88rem;
     }
-
+    
     .workout-text {
         font-size: .61rem;
     }
-
+    
     /* habit section styles */
     .habit-section {
         margin-top: -162px;
     }
-
+    
     .habit-card-container {
         display: grid;
         grid-template-columns: 1fr;
@@ -591,7 +592,7 @@ main {
         row-gap: 40px;
         padding-bottom: 66px;
     }
-
+    
     .habit-card {
         width: auto;
     }
@@ -599,11 +600,11 @@ main {
     .habit-title {
         font-size: 2rem;
     }
-
+    
     .habit-text {
         font-size: .88rem;
     }
-
+    
     /* run section styles  */
     .run-section {
         flex-direction: column;
@@ -614,27 +615,64 @@ main {
         width: 81%;
         margin: 0 auto;
     }
-
+    
     .run-title {
         font-size: 2rem;
     }
-
+    
     .run-text {
         font-size: .88rem;
     }
-
+    
     .run-btn {
         width: 100%;
     }
-
+    
     .run-image {
         width: 81%;
         height: auto;
+    }
+
+    /* training section styles  */
+    .training-intro {
+        width: 100%;
+    }
+
+    .training-title {
+        font-size: 2rem;
+    }
+
+    .training-card3, .training-card6 {
+        display: none;
+    }
+
+    .training-card-container1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .training-card-container2 {
+        grid-template-columns: .9fr 1.1fr;
+    }
+
+    .training-card {
+        height: 135px;
+    }
+
+    .training-card4 p {
+        text-align: start;
+    }
+
+    .training-card1 p, .training-card4 p, .training-card5 p, .training-card6{
+        padding: 95px 0 0 25px;
     }
     
     /* footer styles  */
     .footer-column-container {
         flex-direction: column;
         gap: 30px;
+    }
+
+    .footer-column1 {
+        width: 100%;
     }
 }
