@@ -23,6 +23,30 @@ main {
 }
 
 /* shared styles */
+.nav-bar, .banner, .habit-section, .run-section, .training-section, .team-section {
+    width: 73.6%;
+    margin: 0 auto;
+}
+
+.habit-title, .run-title, .training-title, .team-title {
+    color: var(--color2);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-card-title, .team-card-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.habit-text, .habit-card-text, .run-text, .training-text, .team-text, .team-card-text, .footer-column1-text {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .88rem;
+    font-weight: 400;
+}
+
 .btn-primary {
     background-color: var(--color1);
     border: none;
@@ -40,8 +64,6 @@ main {
 }
 
 .nav-bar {
-    width: 73.6%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,8 +111,6 @@ main {
 }
 
 .banner {
-    width: 73.6%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -217,22 +237,15 @@ main {
 
 /* habit section styles */
 .habit-section {
-    width: 73.6%;
-    margin: 0 auto;
     text-align: center;
 }
 
 .habit-title {
-    color: var(--color2);
-    font-size: 3rem;
     font-weight: 900;
     margin-bottom: 14px;
 }
 
 .habit-text {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .88rem;
-    font-weight: 400;
     margin-bottom: 54px;
 }
 
@@ -253,27 +266,15 @@ main {
     margin-bottom: 30px;
 }
 
-.habit-card-title {
-    color: rgb(255, 255, 255);
-    font-size: 1.125rem;
-    font-weight: 600;
-    margin-bottom: 6px;
-}
-
 .habit-card-text {
     width: 80%;
     margin: 0 auto;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .88rem;
-    font-weight: 400;
 }
 
 
 
 /* run section styles */
 .run-section {
-    width: 73.6%;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -285,7 +286,6 @@ main {
 
 .run-intro {
     width: 38%;
-    /* padding: 40px 0; */
 }
 
 .run-image {
@@ -297,16 +297,10 @@ main {
 }
 
 .run-title {
-    color: rgb(255, 255, 255);
-    font-size: 2.25rem;
-    font-weight: 900;
     padding-bottom: 14px;
 }
 
 .run-text {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .88rem;
-    font-weight: 400;
     padding-bottom: 34px;
 }
 
@@ -317,8 +311,6 @@ main {
 
 /* training section styles  */
 .training-section {
-    width: 73.6%;
-    margin: 0 auto;
     padding-top: 100px;
 }
 
@@ -327,16 +319,10 @@ main {
 }    
 
 .training-title {
-    color: rgb(255, 255, 255);
-    font-size: 3rem;
-    font-weight: 900;
     padding-bottom: 14px;
 }    
 
 .training-text {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .88rem;
-    font-weight: 400;
     padding-bottom: 58px;
 }    
 
@@ -431,6 +417,80 @@ main {
 }
 
 
+/* team section styles  */
+.team-section {
+    padding: 88px 0;
+}
+
+.team-intro {
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.team-title {
+    padding-bottom: 14px;
+}
+
+.team-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+.team-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.team-card1 {
+    background-image: url(../assets/trainer1.png);
+}
+
+.team-card2 {
+    background-image: url(../assets/trainer2.png);
+}
+
+.team-card3 {
+    background-image: url(../assets/trainer3.png);
+}
+
+.team-card4 {
+    background-image: url(../assets/trainer4.png);
+}
+
+.team-card5 {
+    background-image: url(../assets/trainer5.png);
+}
+
+.team-card6 {
+    background-image: url(../assets/trainer6.png);
+}
+
+.team-card1, .team-card2, .team-card3, .team-card4, .team-card5, .team-card6 {
+    height: 272px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 18px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+
+.team-card-title, .team-card-text {
+    padding-left: 25px;
+}
+
+.team-card-text {
+    padding-bottom: 25px;
+}
+
 /* footer styles  */
 .footer {
     background: rgb(34, 34, 34);;
@@ -455,15 +515,9 @@ main {
 
 .footer-column1-title {
     color: rgb(230, 83, 60);
-    font-size: 4.8rem;
+    font-size: 4.4rem;
     font-weight: 800;
     padding-bottom: 20px;
-}
-
-.footer-column1-text {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: .88rem;
-    font-weight: 400;
 }
 
 .footer-2-3-title {
@@ -491,6 +545,11 @@ main {
 
 /* styles for responsiveness */
 @media screen and (max-width: 576px) {
+    /* shared styles  */
+    .habit-title, .run-title, .training-title, .team-title {
+        font-size: 2rem;
+    }
+
     .banner-description,
     .banner-visual-content,
     .habit-section,
@@ -596,14 +655,6 @@ main {
     .habit-card {
         width: auto;
     }
-
-    .habit-title {
-        font-size: 2rem;
-    }
-    
-    .habit-text {
-        font-size: .88rem;
-    }
     
     /* run section styles  */
     .run-section {
@@ -614,14 +665,6 @@ main {
     .run-intro {
         width: 81%;
         margin: 0 auto;
-    }
-    
-    .run-title {
-        font-size: 2rem;
-    }
-    
-    .run-text {
-        font-size: .88rem;
     }
     
     .run-btn {
@@ -636,10 +679,6 @@ main {
     /* training section styles  */
     .training-intro {
         width: 100%;
-    }
-
-    .training-title {
-        font-size: 2rem;
     }
 
     .training-card3, .training-card6 {
@@ -665,7 +704,7 @@ main {
     .training-card1 p, .training-card4 p, .training-card5 p, .training-card6{
         padding: 95px 0 0 25px;
     }
-    
+
     /* footer styles  */
     .footer-column-container {
         flex-direction: column;
