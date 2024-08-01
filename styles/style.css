@@ -663,6 +663,10 @@ td {
         width: 90%;
         margin: 0 auto;
     }
+
+    main {
+        position: relative;
+    }
     
     
     /* header styles */
@@ -704,10 +708,19 @@ td {
         width: 46%;
         display: inline;
     }
+
+    .banner-visual-content {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .banner-image {
+        width: 300px;
+    }
     
     .banner-rectangle1 {
-        left: 7px;
-        top: -325px;
+        left: -17px;
+        top: -290px;
     }
     
     .tutorial-title {
@@ -731,8 +744,8 @@ td {
     
     .banner-rectangle2 {
         padding: 12px 18px;
-        left: 190px;
-        bottom: 627px;
+        left: 165px;
+        bottom: 545px;
     }
     
     .workout-title {
@@ -745,7 +758,7 @@ td {
     
     /* habit section styles */
     .habit-section {
-        margin-top: -162px;
+        margin-top: -235px;
     }
     
     .habit-card-container {
