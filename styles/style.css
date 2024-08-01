@@ -60,7 +60,7 @@ main {
 
 /* header styles */
 .header {
-    background: linear-gradient(180deg, rgb(17, 17, 17), rgb(41, 41, 41), rgb(17, 17, 17));
+    background: linear-gradient(180deg, rgb(17, 17, 17), rgb(41, 41, 41), rgb(17, 17, 17) 90%);
 }
 
 .nav-bar {
@@ -237,6 +237,7 @@ main {
 
 /* habit section styles */
 .habit-section {
+    margin-top: -95px;
     text-align: center;
 }
 
@@ -328,7 +329,7 @@ main {
 
 .training-card {
     width: 100%;
-    height: 210px;
+    height: 200px;
 }
 
 .training-card-container1 {
@@ -404,7 +405,7 @@ main {
 }
 
 .training-card1 p, .training-card3 p, .training-card5 p, .training-card6{
-    padding: 170px 0 0 30px;
+    padding: 160px 0 0 30px;
 }
 
 .training-card2 p {
@@ -688,6 +689,7 @@ td {
         width: 100%;
         display: flex;
         flex-direction: column;
+        gap: 48px;
     }
     
     .banner-title {
