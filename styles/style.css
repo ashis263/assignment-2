@@ -492,13 +492,20 @@ td {
     padding-left: 15px;
 }
 
+.calculator-form *::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 #factor {
     grid-column: 1 / span 2;
     margin-bottom: 34px;
-}
+}   
 
 .calculate-btn {
     width: 224px;
+    height: 54px;
     background-color: var(--color1);
     border: none;
     border-radius: 42px;
@@ -639,7 +646,7 @@ td {
 /* styles for responsiveness */
 @media screen and (max-width: 576px) {
     /* shared styles  */
-    .habit-title, .run-title, .training-title, .team-title {
+    .habit-title, .run-title, .training-title, .team-title, .bmi-title {
         font-size: 2rem;
     }
 
@@ -648,6 +655,9 @@ td {
     .habit-section,
     .run-section,
     .training-section,
+    .bmi-intro,
+    .bmi-chart,
+    .bmi-calculator,
     .team-section,
     .footer-info {
         width: 90%;
@@ -801,6 +811,30 @@ td {
 
     .training-card1 p, .training-card4 p, .training-card5 p, .training-card6{
         padding: 95px 0 0 25px;
+    }
+
+    /* BMI section styles  */
+    .bmi-container {
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    .bmi-intro {
+        text-align: left;
+        padding: 66px 0;
+    }
+
+    .chart-title, .calculator-title {
+        font-size: 1rem;
+    }
+
+    .chart-title {
+        padding: 34px 0 23px 0;
+    }
+
+    .calculator-form *{
+        box-sizing: border-box;
+        width: 100%;
     }
 
     /* team section styles  */
