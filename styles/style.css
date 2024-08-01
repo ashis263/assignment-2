@@ -875,3 +875,139 @@ td {
         width: 100%;
     }
 }
+
+
+
+
+
+/* styles for medium screen sized devices */
+@media screen and (min-width: 576px) and (max-width: 993px) {
+    .nav-bar,
+    .habit-section,
+    .run-section,
+    .training-section,
+    .bmi-intro,
+    .bmi-chart,
+    .bmi-calculator,
+    .team-section,
+    .footer-info {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    /* header styles  */
+    .nav-links a {
+        font-size: 1rem;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .banner-description, .banner-visual-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner-description {
+        padding-top: 75px;
+    }
+
+    .banner-visual-content {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .banner-rectangle1 {
+        left: -38px;
+        top: -230px;
+    }
+
+    .banner-rectangle2 {
+        left: 195px;
+        bottom: 615px;
+    }
+
+
+    /* habit section styles  */
+    .habit-section {
+        margin-top: -100px;
+    }
+
+    .habit-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 54px;
+    }
+
+    .habit-card {
+        margin: auto;
+    }
+
+    
+    /* run section styles  */
+    .run-intro {
+        width: 50%;
+    }
+
+    .run-title {
+        font-size: 2rem;
+    }
+
+    .run-image {
+        width: 250px;
+        height: 320px;
+        object-position: 66% 33%;
+    }
+
+
+    /* training section styles  */
+    .training-section {
+        padding-top: 72px;
+    }
+    
+    .training-intro {
+        width: 100%;
+    }
+
+
+    /* BMI section styles  */
+    .bmi-intro {
+        padding: 68px 0 46px 0;
+    }
+
+    .bmi-container {
+        flex-direction: column;
+        gap: 62px;
+    }
+
+    .chart-title {
+        padding: 34px 0 46px 0;
+    }
+
+
+    /* team section styles  */
+    .team-section {
+        padding: 72px 0;
+    }
+
+    /* footer styles  */
+    .footer-column-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 100px;
+        column-gap: 50px;
+        padding-bottom: 70px;
+    }
+
+    .footer-column1 {
+        width: 70%;
+        grid-column: 1 / span 2;
+    }
+
+    .footer-column2-3 {
+        width: 100%;
+    }
+}
